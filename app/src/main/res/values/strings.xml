@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Lesson_1_m4</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="choose">Выбор картинки</string>
+    <string name="image">image</string>
+    <string name="description">Description</string>
+    <string name="title">Title</string>
+    <string name="_12_04_2023">12.04.2023</string>
+    <string name="date">data</string>
+    <string name="send">SEND</string>
+    <string name="button">button</string>
+</resources>
