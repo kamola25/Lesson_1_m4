@@ -19,16 +19,7 @@ class AdapterNote(private val listener: SelectedListener) : RecyclerView.Adapter
     }
 
 
-    inner class ViewHolderKiro(val binding:ItemNoteBinding): ViewHolder(binding.root) {
-        fun bind(modelNote: ModelNote) {
-            binding.dateNote.text = modelNote.date
-            binding.descNote.text = modelNote.description
-            binding.titleNote.text = modelNote.title
-            binding.imageNote.setImageURI(modelNote.image)
 
-        }
-
-    }
 
     override
     fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolderKiro {
@@ -49,5 +40,14 @@ class AdapterNote(private val listener: SelectedListener) : RecyclerView.Adapter
     }
     interface SelectedListener{
         fun select(selectImg: ModelNote)
+    }
+    inner class ViewHolderKiro(val binding:ItemNoteBinding): ViewHolder(binding.root) {
+        fun bind(modelNote: ModelNote) {
+            binding.dateNote.text = modelNote.date
+            binding.descNote.text = modelNote.description
+            binding.titleNote.text = modelNote.title
+
+        }
+
     }
 }

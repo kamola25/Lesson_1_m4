@@ -12,7 +12,7 @@ class NoteFragment : BaseFragment<FragmentNoteBinding>(FragmentNoteBinding::infl
     override fun setupUI() {
     }
 
-    override fun setupObverse() {
+    override fun setupObserver() {
 
     }
 

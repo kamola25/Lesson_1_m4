@@ -24,10 +24,12 @@ abstract class BaseFragment<Binding: ViewBinding>(private val inflate: Inflate<B
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         setupUI()
-        setupObverse()
+        setupObserver()
     }
     abstract fun setupUI()
-    open fun setupObverse(){
+    open fun setupObserver(){
 
     }
+
+
 }
