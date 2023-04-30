@@ -20,4 +20,14 @@
         android:name="com.kiro.lesson_1_m4.ui.fragment.board.OnBoardFragment"
         android:label="fragment_on_board"
         tools:layout="@layout/fragment_on_board" />
+    <fragment
+        android:id="@+id/contactFragment"
+        android:name="com.kiro.lesson_1_m4.ui.fragment.contact.ContactFragment"
+        android:label="fragment_contact"
+        tools:layout="@layout/fragment_contact" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.kiro.lesson_1_m4.ui.fragment.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
 </navigation>
